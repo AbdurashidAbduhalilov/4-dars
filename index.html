@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>4-dars</title>
     <style>
-
       .username {
         border-radius: 20px;
-        border-color: #6066FF;
+        border-color: #6066ff;
         border-width: 2px;
         width: 300px;
         height: 32px;
-        padding: 0 20px ;
-        background-color: white;
+        padding: 0 20px;
       }
       body {
         background-color: gold;
@@ -24,58 +22,181 @@
         width: 400px;
         height: 200px;
         text-align: center;
+        margin: 10px auto;
+        border-radius: 10px;
+      }
+      .login {
+        color: #252eff;
+        margin: 36px auto;
+        width: 100%;
+        font-size: 44px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .login1 {
+        padding: 4px 40px 10px 40px;
+        border-radius: 20px;
+        background-color: blue;
+        border-style: none;
+        border-width: 50px;
+        color: white;
+        margin-bottom: 84px;
+        padding: 12px 60px;
+      }
+      .table2 {
+        background-color: black;
+        width: 500px;
+        height: 700px;
+        text-align: center;
         margin: 100px auto;
         border-radius: 10px;
       }
-      .login{
-        color: #252EFF; 
-        margin: 36px auto; 
+      .g1 {
+        color: white;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin: 36px auto;
         width: 100%;
         font-size: 44px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
-      .login1{
-          padding: 4px 40px 10px 40px;border-radius: 20px;background-color: blue; border-style: none; border-width: 50px; color: white;margin-bottom: 84px;padding: 12px 60px;
-      }  
-      
+      .www {
+        border-radius: 10px;
+        width: 400px;
+        height: 32px;
+        border-color: #8b54ff;
+        border-width: 2px;
+        background-color: black;
+        color: white;
+      }
+      .www:hover{
+      border-color: blue;
+      }
+      .MMM{
+        width: 410px;
+        height:34px;
+        border-radius: 20px;
+        background-color: #8b54ff;
+        color: white;
+      }
+      .MMM:hover{
+        background-color:aqua ;
+      }
+      .WMW{
+        width: 410px;
+        height:34px;
+        border-radius: 20px;
+        color: white;
+        background-color:#5E64FF ;
+      }
+      .WMW:hover{
+        background-color: red;
+        color: black;
+      }
+      .g1:hover{
+        color: grey;
+      }
+      .table2:hover{
+        background-color: cadetblue;
+      }
+      .www:hover{
+        background-color: cadetblue;
+        color: lightgreen;
+      }
+      .table1:hover{
+        background-color: lightslategray;
+      }
+      .login:hover{
+        color: darkseagreen;
+      }
+      .username:hover{
+         background-color: lightslategray;   
+         color: darkgrey;
+         border-color: lightgray;
+      }
+      .login1:hover{
+        background-color:snow ;
+        color:thistle ;
+      }
     </style>
   </head>
   <body>
-
-          <table class="table1">
-        <tr>
-          <td>
-            <h2 class="login">Login</h2>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <input type="text" class="username" placeholder="username" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <br />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <input type="password" class="username" placeholder="password" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <br />
-          </td>
-        </tr>
-        <tr >
-          <td>
-            <input
-              type="submit"
-              value="LOGIN"
-              class="login1"               >    
-          </td>
-        </tr>
-      </table>
+    <table class="table1">
+      <tr>
+        <td>
+          <h2 class="login">Login</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" class="username" placeholder="username" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="password" class="username" placeholder="password" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" value="LOGIN" class="login1" />
+        </td>
+      </tr>
+    </table>
+    <table class="table2" >
+      <tr>
+        <td>
+          <h1 class="g1">Register</h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" placeholder="Fullname" class="www" />
+        </td>
+      </tr>
+      <br />
+      <tr>
+        <td>
+          <input type="email" placeholder="E-mail" class="www" />
+        </td>
+      </tr>
+      <br />
+      <tr>
+        <td>
+          <input type="tel"pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"placeholder="Phone" class="www"
+          />
+        </td>
+      </tr>
+      <br />
+      <tr>
+        <td>
+          <input type="password" placeholder="password" class="www" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="password" placeholder="Confirm Password"  class="www" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" value="Register"  class="MMM"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" value="Have account? Sign in" class="WMW"/>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
